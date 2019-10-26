@@ -1,0 +1,57 @@
+--------------------------------------
+--------------------------------------
+        Samoilescu Sebastian - Mihail
+        Cojocaru Adrian-Cosmin 
+            GRUPA 315CA
+            TEMA 03 SD
+--------------------------------------
+--------------------------------------
+
+CONTRIBUTIE
+
+[Samoilescu Sebastian - Mihail]
+
+1) Functia possible_erasures()
+
+--> Functia este realizata pe baza functiei date in schelet(get_path_to),
+    intrucat trebuie sa obtinem toate modurile in care putem sterge subgrafurile.
+
+--> Conditia de oprire a functiei recursive este atingerea nivelului par.
+
+2) Functia erase()
+
+--> Pentru a atinge calea data ca parametru ne plimbam cu un pointer prin graf
+
+--> In functie de ultimul index stergem atomul sau subgraful respectiv.
+
+[Cojocaru Adrian Cosmin]
+
+1)Functia possible_double_cuts:
+
+-->  Ne deplasam recursiv prin graf si pastram intr-o matrice(r) toate drumurile
+    catre subgrafurice au 0 atomi si un singur subgraf, deoarece, conform
+    enuntului, acestor subgrafuri li se poate aplica double_cut
+
+2)Functia double_cuts: 
+
+--> Cu subgraful tmp_graph_2 ne deplasam de la radacina in jos, pe drumul dat ca parametru,
+    fara ultimul pas, intrucat, pentru double_cut va trebui sa taiem muchiile(2) de la acest
+    penultim subgraf in jos si sa reconstruim drumul dintre locul unde am "taiat" si locul
+    unde duceau cele 2 muchii
+
+CONTRIBUTIE comuna :
+
+--> Obtinem drumurile catre toate subgrafurile, pe care le folosim ulterior
+    pentru deplasarea in graf si totodata pentru cautarea subgrafurilor identice
+
+--> Odata ce a fost gasit o pereche de subgrafuri identice : 
+    
+    * se adauga in matrice calea cea mai lunga spre subgraf.
+ 
+    * se asigura faptul ca nu se va mai cauta un subgraf inclus in graful gasit
+    (prin variabila okay)
+
+
+--> Pe parcursul temei, desi implementarile unor functii au fost realizate individual
+    ambii memebri ai echipei au contribuit cu idei.
+
