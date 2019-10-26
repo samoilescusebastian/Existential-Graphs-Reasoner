@@ -1,15 +1,8 @@
 --------------------------------------
 --------------------------------------
-        Samoilescu Sebastian - Mihail
-        Cojocaru Adrian-Cosmin 
-            GRUPA 315CA
-            TEMA 03 SD
+        Samoilescu Sebastian - Mihail 
 --------------------------------------
 --------------------------------------
-
-CONTRIBUTIE
-
-[Samoilescu Sebastian - Mihail]
 
 1) Functia possible_erasures()
 
@@ -23,8 +16,6 @@ CONTRIBUTIE
 --> Pentru a atinge calea data ca parametru ne plimbam cu un pointer prin graf
 
 --> In functie de ultimul index stergem atomul sau subgraful respectiv.
-
-[Cojocaru Adrian Cosmin]
 
 1)Functia possible_double_cuts:
 
