@@ -30,8 +30,6 @@
     penultim subgraf in jos si sa reconstruim drumul dintre locul unde am "taiat" si locul
     unde duceau cele 2 muchii
 
-CONTRIBUTIE comuna :
-
 --> Obtinem drumurile catre toate subgrafurile, pe care le folosim ulterior
     pentru deplasarea in graf si totodata pentru cautarea subgrafurilor identice
 
@@ -41,8 +39,4 @@ CONTRIBUTIE comuna :
  
     * se asigura faptul ca nu se va mai cauta un subgraf inclus in graful gasit
     (prin variabila okay)
-
-
---> Pe parcursul temei, desi implementarile unor functii au fost realizate individual
-    ambii memebri ai echipei au contribuit cu idei.
 
